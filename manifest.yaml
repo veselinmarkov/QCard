@@ -1,0 +1,8 @@
+---
+applications:
+- path: deploy
+  name: Flash-Card-Generator #change to be unique in IBM Cloud
+  buildpack: sdk-for-nodejs
+  memory: 256M
+  instances: 1
+  random-route: true
